@@ -1,0 +1,51 @@
+{
+  "claim_id": "10004567",
+  "provider": {
+    "npi": "1234567893",
+    "taxonomy_code": "207Q00000X",
+    "first_name": "Ana",
+    "last_name": "Lopez",
+    "organization_name": "Demo Clinic"
+  },
+  "patient": {
+    "member_id": "ABC123456",
+    "first_name": "Juan",
+    "last_name": "Perez",
+    "birth_date": "01/15/1980",
+    "gender": "M",
+    "address": {
+      "line1": "123 Main St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip_code": "90001"
+    }
+  },
+  "insurance": {
+    "payer_name": "Demo Health Plan",
+    "payer_id": "99999",
+    "policy_number": "POL123456",
+    "plan_name": "Gold PPO"
+  },
+  "service_date": "03/11/2026",
+  "diagnosis_codes": [
+    "J109",
+    "R509"
+  ],
+  "service_lines": [
+    {
+      "procedure_code": "97153",
+      "unit_price": 125.0,
+      "charge_amount": 125.0,
+      "units": 1,
+      "diagnosis_pointer": "1"
+    },
+    {
+      "procedure_code": "97155",
+      "unit_price": 45.0,
+      "charge_amount": 45.0,
+      "units": 1,
+      "diagnosis_pointer": "2"
+    }
+  ],
+  "total_charge_amount": 170.0
+}

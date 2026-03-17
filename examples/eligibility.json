@@ -1,0 +1,9 @@
+{
+  "payer_id": "99999",
+  "provider_npi": "1234567893",
+  "member_id": "ABC123456",
+  "patient_first_name": "Juan",
+  "patient_last_name": "Perez",
+  "patient_birth_date": "01/15/1980",
+  "service_date": "03/11/2026"
+}
